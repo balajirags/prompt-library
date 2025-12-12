@@ -12,7 +12,8 @@ CONTEXT:
 - Follow security best practices for input validation and output encoding.
 - Use consistent and meaningful logging.
 - Write Javadoc comments for public methods.
-- See
+- Use Controller advice for cross-cutting concerns error handling.
+- Use dependency injection for services.
 [../instructions/clean-code.instructions.md](../instructions/clean-code.instructions.md) for best practices.
 [../instructions/security-owasp.instructions.md](../instructions/security-owasp.instructions.md) for security.
 [../instructions/logging.instructions.md](../instructions/logging.instructions.md) for logging.

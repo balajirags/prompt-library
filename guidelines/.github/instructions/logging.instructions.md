@@ -14,8 +14,8 @@ When generating Java code, follow these rules:
 2. Respect log levels:
    - INFO: business events (order created, reservation made)
    - WARN: degraded but handled (fallback, timeout with fallback)
-   - ERROR: operation failed and user/system will see impact
-   - DEBUG: developer troubleshooting details
+   - ERROR: operation failed and user/system will see impact. All Exception logs are ERROR.
+   - DEBUG: developer troubleshooting details.
    Do not use TRACE unless explicitly asked.
 
 3. Never log secrets (tokens, passwords, API keys) or PII (full addresses, phone numbers, card numbers).
